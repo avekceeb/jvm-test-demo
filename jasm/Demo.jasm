@@ -1,0 +1,23 @@
+
+super class Demo
+    version 52:0
+{
+    Method "<init>":"()V"
+    stack 1 locals 1
+    {
+        aload_0;
+        invokespecial	Method java/lang/Object."<init>":"()V";
+        return;
+    }
+    public static Method main:"([Ljava/lang/String;)V"
+    stack 2 locals 1
+    {
+        getstatic	Field java/lang/System.out:"Ljava/io/PrintStream;";
+        ldc	String "ok";
+        invokevirtual	Method java/io/PrintStream.println:"(Ljava/lang/String;)V";
+        iconst_0;
+        invokestatic	Method java/lang/System.exit:"(I)V";
+        return;
+    }
+
+}
